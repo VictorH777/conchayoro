@@ -15,4 +15,4 @@ jobs:
         with:
           the-caller: 'Myself'
       - run: echo random-number ${{ steps.step-caller.outputs.random-number }}
-          shell: bash
+        shell: bash
