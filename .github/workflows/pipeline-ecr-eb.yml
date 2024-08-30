@@ -41,4 +41,3 @@ jobs:
         path: |
            frontend/.elasticbeanstalk/config.yml
            frontend/Dockerrun.aws.json
-    
