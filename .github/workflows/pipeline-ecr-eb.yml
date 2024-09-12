@@ -68,4 +68,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install awsebcli
       - run: |
+          eb init -p docker -r $AWS_REGION --platform "64bit Amazon Linux 2 v3.5.7 running Docker" --keyname my-key
+      - run: |
           eb deploy --verbose
